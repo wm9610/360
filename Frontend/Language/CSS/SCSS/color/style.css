@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+body .container {
+  height: 100vh;
+  background: linear-gradient(-20deg, cornflowerblue 50%, palegreen 50%, palegreen 55%, salmon 55%);
+}
+/*# sourceMappingURL=style.css.map */

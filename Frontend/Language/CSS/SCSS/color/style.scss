@@ -1,0 +1,16 @@
+@import "./code";
+
+body {
+  margin: 0;
+
+  .container {
+    height: 100vh;
+    background: linear-gradient(
+      -20deg,
+      cornflowerblue 50%,
+      palegreen 50%,
+      palegreen 55%,
+      salmon 55%
+    );
+  }
+}

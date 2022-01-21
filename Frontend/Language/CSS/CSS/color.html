@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      /* #top {
+        height: 50vh;
+        background: cornflowerblue;
+        border-radius: 0 0 100% 0;
+      }
+      #bottom {
+        height: 50vh;
+        background: salmon;
+        border-radius: 100% 0 0 0;
+      }
+      .container {
+        background: palegreen;
+      } */
+      .container {
+        height: 100vh;
+        background: linear-gradient(
+          -20deg,
+          cornflowerblue 50%,
+          palegreen 50%,
+          palegreen 55%,
+          salmon 55%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="top"></div>
+      <div id="bottom"></div>
+    </div>
+  </body>
+</html>
