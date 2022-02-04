@@ -1,0 +1,67 @@
+body {
+  /* margin: 0; */
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(48, 44, 44);
+  color: rgb(237, 237, 237);
+}
+
+.main-container > h1 {
+  text-align: center;
+}
+
+.main-container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-card {
+  background: linear-gradient(
+    45deg,
+    rgba(34, 193, 195, 0.8) 0%,
+    rgba(253, 187, 45, 0.8) 100%
+  );
+  padding: 0.5em 2em;
+  margin: 1.5em;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+.day-card:hover {
+  /* box-shadow: 5px 5px; */
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-3;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-3 {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-50px);
+  }
+  30% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
