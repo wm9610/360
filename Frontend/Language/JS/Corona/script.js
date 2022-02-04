@@ -19,7 +19,7 @@ function generateCard(
   {date, totalconfirmed, totaldeceased, totalrecovered},
   container
 ) {
-  console.log(totalrecovered);
+  // console.log(totalrecovered);
   const newCard = document.createElement('div');
   newCard.classList.add('day-card');
   const title = document.createElement('h2');
