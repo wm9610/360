@@ -43,7 +43,7 @@ body {
 .day-card:hover {
   box-shadow: 5px 5px;
   animation-duration: 1s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
   animation-name: bounce-3;
   animation-timing-function: ease;
 }
