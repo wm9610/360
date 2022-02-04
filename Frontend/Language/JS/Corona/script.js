@@ -12,7 +12,7 @@ fetch('https://data.covid19india.org/data.json')
       generateCard(singleCase, cardContainer);
     }
   })
-  .catch((err) => 'Rejected: ' + err);
+  .catch((err) => console.log('Rejected: ' + err));
 
 //pass in json data object
 function generateCard(
