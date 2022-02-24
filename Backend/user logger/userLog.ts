@@ -8,13 +8,13 @@ function getTodayDate(): string {
 }
 
 function createFolder(date: string): void {
-  fs.mkdirSync('/Log/' + date);
+  fs.mkdirSync('Log/' + date);
 }
 
 function getLocalIP(): string {
   const interfaceName = 'Wi-Fi';
   const networkInterfaces = os.networkInterfaces();
-  //console.log(networkInterfaces);
+  // console.log(networkInterfaces);
   const network = networkInterfaces[interfaceName][1];
   return network.address;
 }
